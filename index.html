@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahifani aylantirish menyusi</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- T'rif tanlanganda chiqadigan ma'lumotlar -->
+  <!-- ta'rif ma'lumotlari id ta'rifdagi ma'lumotlarni ochadigan knopka linki bilan bir xil bo'lishi kerak -->
+  <div class="sidebar p-4" id="free">
+    <!-- Orqaga qaytish knopkasi -->
+    <!-- >&times; x belgisini chiqarish uchun ishlatilad  -->
+    <a href="#close" class="close-btn">&times;</a>
+    <!-- T'rif nomi -->
+    <h4>Free</h4>
+    <!-- Ta'rif ma'lumoti -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p>
+  </div>
+
+  <!-- T'rif tanlanganda chiqadigan ma'lumotlar -->
+  <div class="sidebar p-4" id="pro">
+     <!-- Orqaga qaytish knopkasi -->
+    <a href="#close" class="close-btn">&times;</a>
+     <!-- T'rif nomi -->
+    <h4>Pro</h4>
+    <!-- Ta'rif ma'lumoti -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p>
+  </div>
+
+  <!-- T'rif tanlanganda chiqadigan ma'lumotlar -->
+  <div class="sidebar p-4" id="enterprise">
+    <!-- Orqaga qaytish knopkasi -->
+    <a href="#close" class="close-btn">&times;</a>
+    <!-- T'rif nomi -->
+    <h4>Enterprise</h4>
+     <!-- Ta'rif ma'lumoti -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p>
+  </div>
+
+
+
+  <!-- Ta'riflarni o'rab turuvchi container -->
+  <div class="container pt-4">
+    <!-- T'riflarni o'rab turuvchi kontainer ichidagi karobka -->
+    <div class="card-deck mb-3 text-center">
+      <!-- Bi'rinchi ta'rifni o'ran turuvchi karobka -->
+      <div class="card mb-4 shadow-sm">
+        <!-- Ta'rifbni nomini o'rab turuvchi karobka -->
+        <div class="card-header">
+          <!-- Ta'rif nomi -->
+          <h4 class="my-0 font-weight-normal">Free</h4>
+        </div>
+        <!-- Ta'rif ma'lumotlarini o'rab turuvchi karabka -->
+        <div class="card-body">
+          <!-- Ta'rif narxi va muddati -->
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <!-- Ta'rif ma'lumotlar ro'yhatini o'rab turuvchi list -->
+          <ul class="list-unstyled mt-3 mb-4">
+            <!-- Ta'rif ma'lumotlari -->
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <!-- Button knopkasi -->
+          <!-- ta'riflar ma'lumoti idi bilan ma'lumotlarni ochadigan knopka linki ma'lumotlari linki bilan bir xil bo'layapdi -->
+          <a href="#free" class="btn btn-lg btn-block btn-outline-primary">More info</a>
+        </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+          <a href="#pro" class="btn btn-lg btn-block btn-primary">More info</a>
+        </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>30 users included</li>
+            <li>15 GB of storage</li>
+            <li>Phone and email support</li>
+            <li>Help center access</li>
+          </ul>
+          <a href="#enterprise" class="btn btn-lg btn-block btn-primary">More info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
